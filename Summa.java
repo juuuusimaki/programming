@@ -1,4 +1,4 @@
-/**************************************
+/**
  *
  * Name: Summa
  * Creator: Juuso Uusimäki
@@ -11,7 +11,7 @@ import java.util.*; // Tuodaan kirjasto, jossa Scanner-luokka on. Lisää tämä
 // Summa-luokka
 public class Summa {
     public static void main(String[] args) {
-        int lukuA=0, lukuB=0, summa=0;
+        int lukuA=0, lukuB=0, summa;
 
         Locale.setDefault(Locale.ENGLISH); // Asetetaan oletuskieli englanniksi, mikäli halutaan käyttää desimaalierottimena pistettä pilkun sijaan
         Scanner lukija; // Määritellään syötteiden lukemisesta vastaava olio.
