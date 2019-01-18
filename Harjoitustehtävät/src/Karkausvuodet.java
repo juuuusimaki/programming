@@ -35,7 +35,7 @@ public class Karkausvuodet {
                 }
 
                 // Jos valittu vuosiluku on neljällä jaollinen mutta ei sadalla, tai neljällä ja neljälläsadalla.
-                else if ((vuosiLuku % 4 == 0 && vuosiLuku % 100 != 0) || (vuosiLuku % 4 == 0l && vuosiLuku % 400 == 0)) {
+                else if ((vuosiLuku % 4 == 0 && vuosiLuku % 100 != 0) || (vuosiLuku % 4 == 0 && vuosiLuku % 400 == 0)) {
                     System.out.println("Vuosi " + vuosiLuku + " on karkausvuosi, ja sen \n" +
                             "tammikuussa on 31 paivaa,\n" +
                             "helmikuussa on 29 paivaa,\n" + // Huomioitu karkausvuoden yksi ylimääräinen päivä
