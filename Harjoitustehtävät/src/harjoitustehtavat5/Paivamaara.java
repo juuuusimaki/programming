@@ -29,7 +29,7 @@ public class Paivamaara {
         short vuosi, kuukausi, pvm;
         byte formaatti;
 
-
+        System.out.println("Syota vuosi, kuukausi ja paivamaara, seka valitse haluamasi formaatti (1-3): ");
         // Kysytään tietoja ja luetaan ne muuttujiin
         System.out.println("Syota vuosi: ");
         vuosi = lukija.nextShort();
@@ -70,12 +70,16 @@ public class Paivamaara {
             System.out.println(pvm + " " + kuukaudet[kuukausi-1] + "ta " + vuosi);
         }
 
-        if (formaatti == 2) {
+        else if (formaatti == 2) {
             System.out.println(pvm + "." + kuukausi + "." + vuosi);
         }
 
-        if (formaatti == 3) {
+        else if (formaatti == 3) {
             System.out.println(vuosi + "-" + kuukausi + "-" + pvm);
+        }
+
+        else {
+            System.out.println("Valitsemasi formaatti ei kelpaa!");
         }
     }
 }
