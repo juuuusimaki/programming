@@ -1,4 +1,4 @@
-/**
+package harjoitustehtavat1_4; /**
  Juuso Uusimäki, 6.1.2019, Ohjelmointi III - Harjoitustehtävät 2.
 
  1. Laadi ohjelma, joka kysyy käyttäjältä kuvitteellisen henkilön seuraavat tiedot:

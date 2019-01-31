@@ -1,4 +1,4 @@
-/**
+package harjoitustehtavat1_4; /**
  Juuso Uusimäki, 6.1.2019, Ohjelmointi III - Harjoitustehtävät 2.
 
  2. Laadi ohjelma, joka kysyy käyttäjältä seitsemän viikonpäivän sademäärät, jotka se tulostaa näytölle.

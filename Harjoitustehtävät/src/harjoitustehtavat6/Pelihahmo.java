@@ -52,7 +52,6 @@ public class Pelihahmo {
 
         // Ajetaan tietojen tulostus
         pelihahmo.tulosta();
-
     }
 
     // Luodaan attribuutit

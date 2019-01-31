@@ -1,4 +1,4 @@
-/**
+package harjoitustehtavat1_4; /**
  *
  * Juuso Uusimäki, 15.1.2019, Ohjelmointi III - Harjoitustehtävät 4.
  *

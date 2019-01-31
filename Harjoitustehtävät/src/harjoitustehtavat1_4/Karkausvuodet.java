@@ -1,4 +1,4 @@
-/**
+package harjoitustehtavat1_4; /**
  * Juuso Uusimäki, 15.1.2019, Ohjelmointi III - Harjoitustehtävät 4.
  * <p>
  * 3. Laadi ohjelma, joka kyselee käyttäjältä vuosilukuja, kunnes käyttäjä syöttää luvun -1.
